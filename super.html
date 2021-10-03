@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+<head>
+  <title>
+    Super Trunfo
+  </title>
+</head>
+
+<body>
+  <div class="container">
+    <img src="" class="page-logo" alt="">
+    <h1 class="page-title">SUPER TRUNFO YUGI-OH</h1>
+    <button onclick="sortearCarta()" id="btnSortear">Sortear Carta</button>
+    <form id="form">
+      <h2>ESCOLHA O SEU ATRIBUTO</h2>
+      <div class="wrapper">
+        <div>
+          <div id="carta-jogador">
+            <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;">
+            <h3></h3>
+          </div>
+        </div>
+        <div>
+          <div id="carta-maquina" class="carta"><img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/card-super-trunfo-transparent-ajustado.png" style=" width: inherit; height: inherit; position: absolute;"></div>
+        </div>
+      </div>
+      <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+      
+      <div id="resultado"></div>
+    </form>
+  </div>
+</body>
+<link rel="stylesheet" href="style.css">
+<script src="cod.js"></script>
+
+</html>
